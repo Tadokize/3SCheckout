@@ -19,7 +19,6 @@ A proposta foi resolver os problemas apresentados mantendo uma estrutura organiz
 
 A estrutura foi separada por domínio para manter cada questão isolada junto de seus respectivos testes.
 
-```text
 src/
 - q1_strings/
 - q2_math/
@@ -31,7 +30,6 @@ tests/
 - q2_math/
 - q3_game/
 - q4_payroll/
-```
 
 ---
 
