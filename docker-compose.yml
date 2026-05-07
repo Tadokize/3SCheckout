@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+
+    container_name: python-tech-challenge
+
+    volumes:
+      - .:/app
+
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app/src
+
+    command: pytest
